@@ -1,0 +1,6 @@
+- [ ] Reading quiz 🔁 every week 📅 2025-04-18
+- [x] Reading quiz 🔁 every week 📅 2025-04-11 ✅ 2025-04-09
+- [x] Reading quiz 🔁 every week 📅 2025-04-04 ✅ 2025-04-04
+- [ ] 33A Homework 🔁 every week 📅 2025-04-20
+- [x] 33A Homework 🔁 every week 📅 2025-04-13 ✅ 2025-04-15
+- [x] 33A Homework 🔁 every week 📅 2025-04-06 ✅ 2025-04-04

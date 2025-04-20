@@ -1,0 +1,6 @@
+- [ ] Pre-Lab 🔁 every week 📅 2025-04-24
+- [x] Pre-Lab 🔁 every week 📅 2025-04-17 ✅ 2025-04-16
+- [x] Pre-Lab 🔁 every week 📅 2025-04-10 ✅ 2025-04-09
+- [ ] Lab Report 🔁 every week 📅 2025-04-17
+- [x] Lab Report 🔁 every week 📅 2025-04-10 ✅ 2025-04-08
+- [x] Homework 1 📅 2025-04-04 ✅ 2025-04-04

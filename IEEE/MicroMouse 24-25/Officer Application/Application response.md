@@ -1,0 +1,6 @@
+- Past Leadership Experience
+	- Esports team captain, 
+- What other significant time commitments do you have next year?
+	- 
+- Why do you want to run for this position? What can you bring to IEEE? What does IEEE mean to you?
+	- 
