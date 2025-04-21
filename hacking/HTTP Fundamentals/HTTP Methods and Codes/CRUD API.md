@@ -1,0 +1,10 @@
+- API: Application programming interface
+- ![[Pasted image 20250421003949.png]]
+- We can specify the table and the row we want to perform an operation on using an HTTP method
+- ![[Pasted image 20250421004057.png]]
+- These operations are linked to the CRUD APIs
+- For example, to view the data under /city/london:![[Pasted image 20250421004407.png]]
+-  | jq to format JSON strings
+- To add a new entry, use POST
+- e.g.![[Pasted image 20250421004642.png]]
+- 
