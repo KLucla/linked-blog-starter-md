@@ -1,0 +1,37 @@
+
+- HTTP is a tool used to access the www resources.
+	- HTTP communication consists of a client and a server, where the client requests the server for a resource. The server processes the requests and returns the requested resource
+	- HTTP is Defaulted to port 80
+- HTTPS (HyperText Transfer Protocol Secure)
+- `Fully Qualified Domain Name` (`FQDN`)
+- `Uniform Resource Locator` (`URL`)
+-  DNS (Domain Name System)
+![[Pasted image 20250419212121.png]]![[Pasted image 20250419212302.png]]
+- HTTP flow
+	- User enters a URL into the browser
+	- Browser sends request to DNS
+	- DNS looks up IP from url, and returns it
+		- Server cannot communicate without an IP address
+	- Once browser receives IP address, sends a GET request to HTTP port
+	- The web server receives the request and processes it
+- CURL
+	- [cURL](https://curl.haxx.se/) (client URL) is a command-line tool and library that primarily supports HTTP along with many other protocols.
+	- ![[Pasted image 20250419214843.png]]
+	- Prints html code, not rendered like a website
+	- ![[Pasted image 20250419214918.png]]
+	- ![[Pasted image 20250419215316.png]]
+- **HTTPS**
+- Why is HTTP risky?
+	- ![[Pasted image 20250419221747.png]]
+- HTTPS flow
+	- ![[Pasted image 20250419222503.png]]
+	- If a client submits a http request to a https server, the server tries to communicate with port 80, then redirects to port 443 for https.
+	- The client/web browser sends a "hello packet" which provides information about itself
+	- After this, the server replies with "server hello", followed by a [key exchange](https://en.wikipedia.org/wiki/Key_exchange) to exchange SSL certificates.
+		- SSL Certificate: a **digital certificate** that verifies the identity of a website and enables **secure, encrypted communication** between a web browser and the web server.
+	- Client verifies the certificate, then sends its own key.
+	- Finally an encrypted handshake is initiated to make sure everything is working properly
+	- After all the steps, normal HTTP communication is continued, which is now encrypted
+- NOTE: 
+	- One way an intruder can bypass HTTPS is by performing a HTTP downgrade attack, which downgrades HTTPS communication to HTTP, and changes the data transferred to clear-text. This is done with a [[MITM]](Man in the Middle) technique.
+- ![[Pasted image 20250419223105.png]]

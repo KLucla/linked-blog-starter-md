@@ -1,0 +1,12 @@
+ - An HTTP request is made by the client/ web browser, and is processed by the web server.
+ - When the server receives the request, it responds with a HTTPS response containing the response code.
+
+ - **HTTP REQUEST**
+ - ![[Pasted image 20250419223546.png]]
+ - **HTTP RESPONSE**
+ - ![[Pasted image 20250419223705.png]]
+ - cURL
+	 - If we wanted to view the full HTTP request and HTTP response using cURL, we can add -v for the verbose flag, e.g.  KLhcks@htb[/htb]$ curl inlanefreight.com. 
+- Browser Dev Tools
+	- Whenever we visit a website or access any web application, our browser sends multiple web requests and handles multiple HTTP responses to render the final result in the browser window.
+	- F12 opens the browser web tools, and the Network tab is most useful.
